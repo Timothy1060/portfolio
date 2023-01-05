@@ -20,16 +20,11 @@ const Navigation = () => {
         href="/"
         className="flex items-center mt-4 lg:mt-0 gap-x-4 py-2 px-4 rounded-3xl bg-blue-500 lg:bg-transparent text-white lg:text-blue-500"
       >
-        {/* <Image
-          src="https://avatars.dicebear.com/api/initials/Timothy.svg"
-          alt="br"
-          width={48}
-          height={48}
-          className="h-12 w-12 object-cover rounded-full"
-        /> */}
-        <p className="font-semibold text-base lg:text-xl">Timothy Iliya</p>
+        <p className="font-semibold text-base lg:text-xl tracking-wider">
+          Timothy Iliya
+        </p>
       </Link>
-      <section className="flex justify-center lg:justify-start w-full lg:w-fit items-center gap-x-11 mt-4 lg:mt-0 text-zinc-400">
+      <section className="flex justify-center lg:justify-start w-full lg:w-fit items-center gap-x-11 mt-6 lg:mt-0 text-zinc-400">
         <div className="grid grid-cols-4 gap-y-2 lg:inline">
           {Navlinks.map((item) => (
             <Link
