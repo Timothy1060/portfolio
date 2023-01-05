@@ -26,7 +26,7 @@ const Navigation = () => {
         />
         <p className="font-semibold text-base lg:text-xl">Timothy Iliya</p>
       </Link>
-      <section className="lg:flex w-full lg:w-fit items-center gap-x-11 mt-4 lg:mt-0 text-zinc-400">
+      <section className="flex justify-center lg:justify-start w-full lg:w-fit items-center gap-x-11 mt-4 lg:mt-0 text-zinc-400">
         <div className="grid grid-cols-2 gap-y-2 lg:inline">
           {Navlinks.map((item) => (
             <Link
