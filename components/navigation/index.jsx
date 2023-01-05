@@ -20,7 +20,7 @@ const Navigation = () => {
         href="/"
         className="flex items-center mt-4 lg:mt-0 gap-x-4 py-2 px-4 rounded-3xl bg-blue-500 lg:bg-transparent text-white lg:text-blue-500"
       >
-        <p className="font-semibold text-base lg:text-xl tracking-wider">
+        <p className="font-semibold text-base lg:text-xl tracking-wide">
           Timothy Iliya
         </p>
       </Link>
