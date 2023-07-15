@@ -29,7 +29,7 @@ const projects = [
     id: "5",
     type: "Android app",
     title: "Sendvoy",
-    link: "https://play.google.com/store/apps/details?id=com.sendvoy",
+    link: "https://play.google.com/store/apps/details?id=com.sendvoy.app",
   },
 ];
 
