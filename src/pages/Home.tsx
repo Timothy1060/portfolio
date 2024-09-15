@@ -29,7 +29,7 @@ const projects = [
     id: "5",
     type: "Webapp",
     title: "Social Data Network",
-    link: "https://www.socialdata.network/",
+    link: "https://socialdatanetwork.com/",
   },
   {
     id: "6",
