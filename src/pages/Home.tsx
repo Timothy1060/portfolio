@@ -11,11 +11,7 @@ const projects = [
     id: "5",
     type: "Webapp",
     title: "Social Data Network",
-<<<<<<< HEAD
     link: "https://www.socialdatanetwork.com/",
-=======
-    link: "https://socialdatanetwork.com/",
->>>>>>> 80b055d62cbfe4caa5821b680ca269d7afccfea0
   },
   {
     id: "6",
