@@ -31,6 +31,12 @@ const projects = [
     title: "Deychop for Vendors",
     link: "https://play.google.com/store/apps/details?id=com.deychopvendor.app",
   },
+  {
+    id: "10",
+    type: "Android app",
+    title: "Deychop for Riders",
+    link: "https://play.google.com/store/apps/details?id=com.deychoprider.app",
+  },
   // {
   //   id: "8",
   //   type: "Website",
