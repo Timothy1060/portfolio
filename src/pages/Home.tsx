@@ -81,7 +81,7 @@ const Home = () => {
 <Link
             to="https://www.linkedin.com/in/timothy-iliya-45b2aa163?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
-            className="text-sm lg:text-base pb-2 font-bold text-custom-blue border-b-2 border-b-custom-blue"
+            className="text-sm lg:text-base pb-2 font-bold text-custom-blue border-b-2 border-b-custom-blue mt-5"
           >
             LinkedIn
           </Link>
