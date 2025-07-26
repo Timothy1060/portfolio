@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+8import { Link } from "react-router-dom";
 
 const projects = [
   {
@@ -70,7 +70,7 @@ const Home = () => {
             View Projects
           </a>
           <Link
-            to="https://drive.google.com/file/d/1uTOofvH94eBtbnuGrIjdcczTQ1M8jWw9/view?usp=sharing"
+            to="https://drive.google.com/file/d/1rwdDi9z2vMyvj9lU5VnVNn4XcGTuk_uP/view?usp=drivesdk"
             target="_blank"
             className="text-sm lg:text-base pb-2 font-bold text-custom-blue border-b-2 border-b-custom-blue"
           >
