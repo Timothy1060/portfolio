@@ -7,14 +7,19 @@
 @tailwind utilities;
 
 * {
-  font-family: "Inter", sans-serif; 
-   scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: #02000e;
-  color: #f7f4ff;
-
+  background: radial-gradient(
+    circle at top left,
+    #1a1a2e,
+    #16213e,
+    #0f3460,
+    #000000
+  );
+  color: #eaeaea;
 }
 
 .poetsen {

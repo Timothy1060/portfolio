@@ -48,53 +48,58 @@ const projects = [
 const Home = () => {
   return (
     <>
-      <section className="flex flex-col items-center py-16">
+      <section className="flex flex-col items-center pt-4 lg:pt-1 pb-16">
+        <div className="">
+          <img
+            className="h-[150px] lg:h-[200px] mb-4 lg-mb-0 w-full"
+            src="/device2.png"
+            alt="illustration"
+          />
+        </div>
         <p className="poetsen text-center text-3xl lg:text-8xl">
-          FRONTEND DEVELOPER
+          SOFTWARE DEVELOPER
         </p>
         <p className="font-light text-center text-sm lg:text-xl mx-2 lg:mx-0 my-3">
           {
-            "{ Javascript, React, Nextjs, React Native,Typescript, Tailwind CSS, SASS... }"
+            "{ Javascript, React, Nextjs, React Native, Typescript, Tailwind CSS, SASS... }"
           }
         </p>
         <p className="font-medium lg:font-light text-sm lg:text-base text-center w-[80%] lg:w-[35%] mb-3 leading-6">
-          Specializing in React & React Native and leveraging these technologies
-          to bring web and app projects to life.
+          Specializing in building and leveraging technologies to bring web and
+          app projects to life.
         </p>
 
         <div className="flex gap-x-4 lg:gap-x-8 items-center mt-6">
-          <a
+          {/* <a
             href="/#project"
             className="text-sm lg:text-base px-5 lg:px-7 py-3 font-bold bg-custom-blue text-custom-black rounded-3xl"
           >
             View Projects
+          </a> */}
+          <a
+            href="/#project"
+            className="text-sm lg:text-base pb-2 font-bold text-custom-blue border-b-2 border-b-custom-blue"
+          >
+            Projects
           </a>
           <Link
             to="https://drive.google.com/file/d/1rwdDi9z2vMyvj9lU5VnVNn4XcGTuk_uP/view?usp=drivesdk"
             target="_blank"
             className="text-sm lg:text-base pb-2 font-bold text-custom-blue border-b-2 border-b-custom-blue"
           >
-            Download Resume
+            Resume
           </Link>
-        </div>
-
-<Link
+          <Link
             to="https://www.linkedin.com/in/timothy-iliya-45b2aa163?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
-            className="text-sm lg:text-base pb-2 font-bold text-custom-blue border-b-2 border-b-custom-blue mt-5"
+            className="text-sm lg:text-base pb-2 font-bold text-custom-blue border-b-2 border-b-custom-blue"
           >
             LinkedIn
           </Link>
-        <div>
-          <img
-            className="h-[300px] lg:h-[700px] w-full"
-            src="/file.png"
-            alt="illustration"
-          />
         </div>
       </section>
 
-      <section id="project" className="py-6 padding-x">
+      <section id="project" className="py-20 padding-x">
         <p className="text-center mb-12 text-4xl lg:text-6xl uppercase font-bold">
           Projects
         </p>
@@ -126,7 +131,7 @@ const Home = () => {
           Philosophy
         </p>
 
-        <p>
+        <p className="text-justify">
           I am passionate about creating and bringing ideas to life. My energy
           and self-motivation drive me to deliver exceptional results, meeting
           every challenge head-on with reliability and responsibility. I thrive
